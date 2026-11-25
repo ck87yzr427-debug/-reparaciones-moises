@@ -1,0 +1,42 @@
+/* Reservations: a genuine booking provider supplies the calendar and payment. */
+.booking-section{max-width:none;background:#e6ebdfed;border-block:1px solid #203e3314;position:relative;isolation:isolate}
+.booking-section::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 3% 10%,#c5d0b842,transparent 58%),radial-gradient(ellipse at 98% 96%,#d7b79a24,transparent 45%)}
+.booking-section [hidden]{display:none!important}
+.booking-heading .eyebrow{color:#647550}
+.booking-heading>p{max-width:380px}
+.booking-layout{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:28px;align-items:start}
+.booking-details,.booking-agenda{min-width:0}
+.booking-price-card{background:#203e33;color:#f7f2e9;border:1px solid #345344;border-radius:26px;padding:31px 32px 32px;box-shadow:0 12px 30px #203e330c}
+.booking-section .booking-label{margin:0;font-size:14px;font-weight:500;line-height:1.5;letter-spacing:.4px}
+.booking-price-card .booking-label{color:#e4ead9}
+.booking-price{display:flex;align-items:baseline;gap:10px;font-family:Georgia,serif;font-weight:400;font-size:92px;line-height:1;letter-spacing:-4px;margin:24px 0 16px}
+.booking-currency{font-size:43px;letter-spacing:-1px}
+.booking-price-caption{font-size:17px;line-height:1.65;margin:0;max-width:310px;color:#f1eee1}
+.booking-price-rule{height:1px;background:#d3ddc33b;margin:27px 0 23px}
+.booking-credit,.booking-visit-value{font-size:16px;line-height:1.75;margin:0}
+.booking-credit strong{font-weight:500}
+.booking-visit-value{color:#dce3d1;margin-top:14px}
+.booking-preparation{padding:26px 7px 0}
+.booking-preparation h3{font-size:25px;line-height:1.25;margin:0 0 17px;letter-spacing:-.3px}
+.booking-preparation ul{list-style:none;padding:0;margin:0;display:grid;gap:13px}
+.booking-preparation li{position:relative;padding-left:18px;font-size:16px;line-height:1.7;color:#455b47}
+.booking-preparation li::before{content:"";position:absolute;left:0;top:.7em;width:5px;height:5px;border-radius:50%;background:#b57852}
+.booking-preparation>p{font-size:14px;line-height:1.75;margin:21px 0 0;color:#5b6d53}
+.booking-agenda{background:#fcfaf3f5;border:1px solid #d1dbc8;border-radius:26px;padding:32px;box-shadow:0 12px 30px #203e3306}
+.booking-agenda .booking-label{color:#8b5d3f}
+.booking-agenda h3{font-size:32px;line-height:1.17;letter-spacing:-.6px;max-width:370px;margin:18px 0 18px}
+.booking-agenda-intro>p:last-child{font-size:16px;line-height:1.75;color:#4e634d;margin:0}
+.booking-status{font-size:16px;line-height:1.75;margin:25px 0 0;padding:17px 18px;border:1px solid #d6decf;background:#edf1e5;border-radius:16px;color:#4c6047}
+.booking-status:empty{display:none}
+.booking-actions{display:flex;flex-direction:column;align-items:flex-start;gap:15px;margin-top:24px;max-width:100%}
+.booking-actions .button{font-size:15px;line-height:1.5;min-height:54px;text-align:center;white-space:normal;max-width:100%;cursor:pointer;padding:14px 23px}
+.booking-external{font-size:14px;line-height:1.7;text-underline-offset:4px;text-decoration-thickness:1px;overflow-wrap:anywhere}
+.booking-calendar{margin-top:25px;border:1px solid #d6decf;border-radius:20px;overflow:hidden;background:#fff;min-width:0}
+.booking-calendar iframe{display:block;border:0;width:100%;min-height:640px;background:#fff}
+.booking-area-note{font-size:14px;line-height:1.75;color:#617056;margin:26px 0 0;padding-top:22px;border-top:1px solid #d8dfd0}
+@media(max-width:960px){.booking-layout{gap:20px;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}.booking-price-card,.booking-agenda{padding:27px 25px}.booking-agenda h3{font-size:29px}}
+@media(max-width:750px){.booking-layout{grid-template-columns:minmax(0,1fr);gap:27px}.booking-heading>p{max-width:520px}.booking-price-card,.booking-agenda{padding:27px 24px;border-radius:24px}.booking-price{font-size:84px;margin-top:22px}.booking-currency{font-size:40px}.booking-price-caption{max-width:380px}.booking-preparation{padding:25px 3px 0}.booking-preparation h3{font-size:25px}.booking-agenda h3{font-size:30px;max-width:340px}.booking-actions{align-items:stretch}.booking-actions .button{width:100%}.booking-external{text-align:center}.booking-status{padding:16px;margin-top:23px}.booking-area-note{margin-top:24px}.booking-calendar{border-radius:16px}}
+@media(max-width:380px){.booking-price-card,.booking-agenda{padding:24px 21px}.booking-price{font-size:78px}.booking-agenda h3{font-size:28px}.booking-actions .button{padding:14px 18px}}
+
+.booking-hours{display:grid;gap:15px;margin:25px 0 0;padding:21px 0;border-block:1px solid #d8dfd0}.booking-hours div{display:grid;gap:4px}.booking-hours dt{font-size:14px;color:#647550}.booking-hours dd{font-size:16px;color:#203e33;margin:0;line-height:1.65}
+.booking-is-connected .booking-whatsapp{background:transparent;color:#203e33;border-color:#9bac8f}.booking-is-connected .booking-whatsapp:hover{background:#e9eedf}

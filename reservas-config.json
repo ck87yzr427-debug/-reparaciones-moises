@@ -1,0 +1,22 @@
+{
+  "enabled": false,
+  "provider": "simplybook",
+  "bookingUrl": "",
+  "embedUrl": "",
+  "currency": "EUR",
+  "amount": "5.00",
+  "timeZone": "Europe/Madrid",
+  "availability": {
+    "weekdays": [1, 2, 3],
+    "opens": "08:30",
+    "closes": "12:30",
+    "blockMinutes": 60,
+    "includesTravel": true
+  },
+  "verifiedSetup": {
+    "realAvailability": false,
+    "paypalRequired": false,
+    "confirmationAfterPayment": false,
+    "ownerWhatsAppNotification": false
+  }
+}
